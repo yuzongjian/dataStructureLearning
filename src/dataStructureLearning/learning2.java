@@ -9,10 +9,10 @@ package dataStructureLearning;
  * This is a project for the power supply bureau.
  */
 public class learning2 {
-	public static boolean main(String[] args) {
+	public static void main(String[] args) {
 		String x="1234567";
 		 StringBuffer sb = new StringBuffer();
-	        char[] ch = x.toCharArray();
+	        char[] ch = str.toCharArray();
 	        for(int i = ch.length-1;i>=0;i--){
 	            sb.append(ch[i]);
 	        }
@@ -20,9 +20,7 @@ public class learning2 {
 	        if(y.equals(x)) {
 	        	return true;
 	        }
-	        else {
-	        	return false;
-	        }
+
 	}
 
 }
